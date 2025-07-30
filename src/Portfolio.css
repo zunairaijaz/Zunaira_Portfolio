@@ -1,0 +1,282 @@
+.custom-header {
+    background: linear-gradient(120deg, #0d0d1f, #1f1b3a);
+    z-index: 999;
+  }
+  .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.3rem 0;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .nav-link:hover {
+    color: #00ffd5;
+  }
+  
+  .nav-link.active-tab {
+    color: #00ffd5;
+    font-weight: 600;
+    transform: translateY(-3px); /* Popped up */
+  }
+  
+  .nav-link.active-tab::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #00ffd5;
+    border-radius: 2px;
+  }
+  
+  
+  .email-link {
+    color: #00ffd5;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  .hire-btn {
+    background: linear-gradient(135deg, #00ffd5, #007fff);
+    color: #0f0f1b;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 12px rgba(0, 255, 213, 0.4);
+  }
+  
+  .hire-btn:hover {
+    background: linear-gradient(135deg, #007fff, #00ffd5);
+    color: #ffffff;
+    box-shadow: 0 0 18px rgba(0, 255, 213, 0.6);
+  }
+  
+  .text-highlight {
+    color: #00ffd5;
+  }
+  .text-neon {
+    color: #00ffd5;
+  }
+  .text-highlight:hover {
+    color: #00ffd5;
+    text-decoration: underline;
+  }
+  
+  .bg-dark-purple {
+    background-color: #1b0e2a; /* Dark grape */
+    color: white;
+  }
+  
+  .bg-dark-purple-gradient {
+    background: linear-gradient(135deg, #1c1c3c, #2f1d57);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.3s ease;
+  }
+  .bg-dark-purple-gradient:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.1);
+  }
+  .bg-dark:hover {
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, #0d0b1f, #1e0037); /* Dark purple/black blend */
+    min-height: 100vh;
+    padding: 60px 20px;
+  }
+  
+  .text-highlight {
+    color: #00ffd5;
+  }
+  
+  .circle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #1f1f1f;
+    color: #00ffd5;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .circle-btn:hover {
+    background: #00ffd5;
+    color: #0e0e0e;
+    transform: scale(1.1);
+  }
+  
+  .image-card-wrapper {
+    background: linear-gradient(145deg, #1b1c2e, #2a2b45);
+    padding: 12px;
+    border-radius: 20px;
+    transform: rotate(-3deg);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 18px 45px rgba(0, 255, 213, 0.25);
+    width: 450px; /* ⬅️ Increased from 260px */
+    height: 500px;
+  }
+  
+  .image-card-wrapper:hover {
+    transform: rotate(0deg) scale(1.04);
+    box-shadow: 0 25px 55px rgba(0, 255, 213, 0.4);
+  }
+  
+  .image-inner-card {
+    background-color: #0f0f1b;
+    border-radius: 15px;
+    padding: 8px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .styled-square-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.6);
+  }
+  
+  
+  
+  
+  .hero-section {
+  background: linear-gradient(135deg, #0d0b1f, #1e0037);
+  min-height: 85vh;
+
+}
+.stats-section {
+    background: transparent;
+    margin-top: 70px;
+  }
+  
+  .stat-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 255, 213, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .stat-box:hover {
+    transform: translateY(-5px);
+    background-color: rgba(0, 255, 213, 0.08);
+  }
+  .project-modern-card {
+    min-height: 300px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .project-modern-card {
+      flex-direction: row;
+    }
+  }
+  
+  .project-left {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .project-right {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bg-dark-purple 
+  }
+  
+  .project-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-left: 3px solid #0ff; /* optional border */
+    border-radius: 0; /* remove if previously set */
+  }
+  
+  .text-light-emphasis {
+    color: #b8eaff;
+  }
+  
+  ul li span:first-child {
+    color: #00ffff;
+    font-weight: bold;
+  }
+  /* Experience & Education styling */
+  .glass-card {
+    background: rgba(40, 40, 60, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  }
+  
+  .text-highlight {
+    color: #00FFF7;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-8px);
+  }
+  
+  /* Make slick dots bigger and white */
+.slick-dots li button:before {
+    font-size: 10px !important;
+    color: white !important;
+    opacity: 1 !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #00FFF7 !important; /* Optional: highlight active dot in neon */
+    opacity: 1 !important;
+  }
+  
+  .slick-dots {
+    bottom: -30px; /* Adjust spacing if needed */
+  }
+  .modern-input {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .modern-input:focus {
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+    background: transparent;
+    color: white;
+  }
+  
+  .text-neon {
+    color: #00ffff;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+  }
+  
+  .btn-outline-cyan:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+  }
+  
