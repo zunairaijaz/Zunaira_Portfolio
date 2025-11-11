@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa';
+import { FaGithub, FaDownload } from 'react-icons/fa';
 import Services from './services';
 import Projects from './projects';
 import Skills from './skills';
