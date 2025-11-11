@@ -12,28 +12,28 @@ export default function Footer() {
     >
       <div className="container text-center">
         {/* Name / Branding */}
-        <h3 className="fw-bold text-neon mb-3">Zunaira Ijaz</h3>
+        <h3 className="fw-bold text-neon mb-3">Shamila Yaseen</h3>
 
         {/* Social Links */}
         <div className="d-flex justify-content-center gap-4 mb-3">
           <a
-            href="https://github.com/zunairaijaz"
+            href="https://github.com/shamilayaseen00-pixel"
             target="_blank"
             rel="noreferrer"
             className="text-white"
           >
             <FaGithub size={24} />
           </a>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/zunaira-ijaz-103a4021b            "
             target="_blank"
             rel="noreferrer"
             className="text-white"
           >
             <FaLinkedin size={24} />
-          </a>
+          </a> */}
           <a
-            href="mailto: zunairaijaz2018@gmail.com
+            href="mailto: shamila.yaseen00@gmail.com
             "
             className="text-white"
           >
@@ -53,7 +53,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-secondary small mb-0">
-          &copy; {new Date().getFullYear()} zunaira ijaz. All rights reserved.
+          &copy; {new Date().getFullYear()} Shamila Yaseen. All rights reserved.
         </p>
       </div>
     </footer>
