@@ -75,7 +75,7 @@ export default function Contact() {
                   <FaEnvelope className="text-neon" />
                 </div>
                 <a href="mailto:zunairaijaz2018@gmail.com" className="text-white text-decoration-none">
-                shamila.yaseen00@gmail.com
+                zunairaijaz2018@gmail.com
                 </a>
               </div>
               <div className="d-flex align-items-center mb-3">

@@ -14,7 +14,7 @@ const platformIcons = {
 const testimonials = [
   {
     review:
-      "Working with Shamila was an absolute pleasure. The website he developed exceeded our expectations!",
+      "Working with Zunaira was an absolute pleasure. The website he developed exceeded our expectations!",
     name: "John Doe",
     platform: "Upwork",
   },
@@ -32,7 +32,7 @@ const testimonials = [
   },
   {
     review:
-      "Shamila helped us scale our mobile app flawlessly. Very talented developer!",
+      "Zunaira helped us scale our mobile app flawlessly. Very talented developer!",
     name: "Ayesha Khan",
     platform: "Freelancer",
   },
