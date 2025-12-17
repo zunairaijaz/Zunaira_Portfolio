@@ -6,7 +6,7 @@ import Skills from './skills';
 import Testimonials from './testimonials';
 import Contact from './contact';
 import ExperienceEducation from './experienceEducation';
-import { FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import Footer from './footer';
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState('services');

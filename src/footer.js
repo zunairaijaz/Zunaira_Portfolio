@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub,  FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -24,14 +24,14 @@ export default function Footer() {
           >
             <FaGithub size={24} />
           </a>
-          {/* <a
+          <a
             href="https://www.linkedin.com/in/zunaira-ijaz-103a4021b            "
             target="_blank"
             rel="noreferrer"
             className="text-white"
           >
             <FaLinkedin size={24} />
-          </a> */}
+          </a>
           <a
             href="mailto: shamila.yaseen00@gmail.com
             "
