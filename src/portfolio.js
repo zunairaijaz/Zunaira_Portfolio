@@ -66,7 +66,7 @@ export default function Portfolio() {
     color: 'rgb(221 221 221 / var(--tw-text-opacity, 1))',
   }}
 >
- I am Shamila Yaseen
+ I am Zunaira Ijaz
 </h3>
 
   <h1 className="display-3 fw-bold text-neon mb-4">
@@ -83,7 +83,7 @@ Senior Software Engineer.  </h1>
 
             <div className="btn-group mt-4">
             <a
-  href="/shamila_yaseenCV.pdf"
+  href="/ZunairaIjaz_CV.pdf"
   download
   className="btn btn-outline-light d-inline-flex align-items-center gap-2 px-4 py-2 rounded-3 fw-medium"
   style={{
@@ -98,12 +98,12 @@ Senior Software Engineer.  </h1>
   Download CV
   <FaDownload />
 </a>
-              <a href="https://github.com/shamilayaseen00-pixel" target="_blank" rel="noreferrer" className="circle-btn">
+              <a href="https://github.com/zunairaijaz" target="_blank" rel="noreferrer" className="circle-btn">
                 <FaGithub size={30} />
               </a>
-              {/* <a href="https://www.linkedin.com/in/zunaira-ijaz-103a4021b" target="_blank" rel="noreferrer" className="circle-btn ms-3">
+              <a href="https://www.linkedin.com/in/zunaira-ijaz-103a4021b" target="_blank" rel="noreferrer" className="circle-btn ms-3">
                 <FaLinkedin size={30} />
-              </a> */}
+              </a>
 
             </div>
           </div>
