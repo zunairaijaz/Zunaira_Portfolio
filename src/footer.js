@@ -33,8 +33,7 @@ export default function Footer() {
             <FaLinkedin size={24} />
           </a> */}
           <a
-            href="mailto: shamila.yaseen18@gmail.com
-            "
+            href="mailto: shamila.yaseen10@gmail.com"
             className="text-white"
           >
             <FaEnvelope size={24} />

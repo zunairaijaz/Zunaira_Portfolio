@@ -74,8 +74,8 @@ export default function Contact() {
                 <div className="icon-circle me-3" style={iconStyle}>
                   <FaEnvelope className="text-neon" />
                 </div>
-                <a href="mailto:shamila.yaseen18@gmail.com" className="text-white text-decoration-none">
-                shamila.yaseen18@gmail.com
+                <a href="mailto:shamila.yaseen10@gmail.com" className="text-white text-decoration-none">
+                shamila.yaseen10@gmail.com
                 </a>
               </div>
               {/* <div className="d-flex align-items-center mb-3">
@@ -88,7 +88,7 @@ export default function Contact() {
                 <div className="icon-circle me-3" style={iconStyle}>
                   <FaMapMarkerAlt className="text-neon" />
                 </div>
-                <span>Lahore, Pakistan</span>
+                <span>Multan, Pakistan</span>
               </div>
             </div>
           </div>
