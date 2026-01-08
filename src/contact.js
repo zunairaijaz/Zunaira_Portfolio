@@ -25,7 +25,7 @@ export default function Contact() {
 
     const fullName = `${formValues.firstName} ${formValues.lastName}`;
     const formData = {
-      access_key: "d8410889-c14b-4f07-8de3-622f6bece21e",
+      access_key: "2655a511-b69b-485e-b054-1f9d745a3c9c",
       subject: "New Contact Form Submission",
       from_name: fullName,
       fullName,
