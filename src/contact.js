@@ -74,16 +74,16 @@ export default function Contact() {
                 <div className="icon-circle me-3" style={iconStyle}>
                   <FaEnvelope className="text-neon" />
                 </div>
-                <a href="mailto:zunairaijaz2018@gmail.com" className="text-white text-decoration-none">
-                zunairaijaz2018@gmail.com
+                <a href="mailto:shamila.yaseen18@gmail.com" className="text-white text-decoration-none">
+                shamila.yaseen18@gmail.com
                 </a>
               </div>
-              <div className="d-flex align-items-center mb-3">
+              {/* <div className="d-flex align-items-center mb-3">
                 <div className="icon-circle me-3" style={iconStyle}>
                   <FaPhone className="text-neon" />
                 </div>
                 <span>+92-XXX-XXXXXXX</span>
-              </div>
+              </div> */}
               <div className="d-flex align-items-center">
                 <div className="icon-circle me-3" style={iconStyle}>
                   <FaMapMarkerAlt className="text-neon" />
